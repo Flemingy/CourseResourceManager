@@ -4,7 +4,7 @@ A web course assignment built with ASP.NET.
 开发环境：Windows10 + SQL Server2012 + VS2022<br/>
 语言框架: ASP.NET Framework
 ## 二、项目目标
-本项目简略实现私人资源管理信息系统，提供了注册、登录、图片（上传图片、浏览图片）、书籍、工具管理等功能。
+本项目简略实现了私人资源管理信息系统，站点提供注册、登录、图片（上传图片、浏览图片）、书籍、工具管理等功能。
 ## 三、项目结构
 1、Login.aspx：登录页面；<br/>
 2、Register.aspx：注册页面；<br/>

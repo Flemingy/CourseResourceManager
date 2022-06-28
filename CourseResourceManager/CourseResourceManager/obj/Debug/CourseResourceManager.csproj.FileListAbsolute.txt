@@ -1,0 +1,12 @@
+D:\桌面源\CourseResourceManager\CourseResourceManager\CourseResourceManager\bin\CourseResourceManager.dll.config
+D:\桌面源\CourseResourceManager\CourseResourceManager\CourseResourceManager\bin\CourseResourceManager.dll
+D:\桌面源\CourseResourceManager\CourseResourceManager\CourseResourceManager\bin\CourseResourceManager.pdb
+D:\桌面源\CourseResourceManager\CourseResourceManager\CourseResourceManager\bin\EntityFramework.dll
+D:\桌面源\CourseResourceManager\CourseResourceManager\CourseResourceManager\bin\EntityFramework.SqlServer.dll
+D:\桌面源\CourseResourceManager\CourseResourceManager\CourseResourceManager\bin\EntityFramework.xml
+D:\桌面源\CourseResourceManager\CourseResourceManager\CourseResourceManager\bin\EntityFramework.SqlServer.xml
+D:\桌面源\CourseResourceManager\CourseResourceManager\CourseResourceManager\obj\Debug\CourseResourceManager.csproj.AssemblyReference.cache
+D:\桌面源\CourseResourceManager\CourseResourceManager\CourseResourceManager\obj\Debug\CourseResourceManager.csproj.CoreCompileInputs.cache
+D:\桌面源\CourseResourceManager\CourseResourceManager\CourseResourceManager\obj\Debug\CourseResourceManager.csproj.CopyComplete
+D:\桌面源\CourseResourceManager\CourseResourceManager\CourseResourceManager\obj\Debug\CourseResourceManager.dll
+D:\桌面源\CourseResourceManager\CourseResourceManager\CourseResourceManager\obj\Debug\CourseResourceManager.pdb

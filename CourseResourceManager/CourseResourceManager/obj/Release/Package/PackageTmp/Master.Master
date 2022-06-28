@@ -1,0 +1,98 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="CourseResourceManager.Master" %>
+
+<!DOCTYPE html>
+
+<html style="overflow-y: hidden;">
+
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="Bookmark" href="/favicon.ico">
+    <link rel="Shortcut Icon" href="/favicon.ico" />
+
+    <link href="~/css/H-ui.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+    <link type="text/css" rel="stylesheet" href="~/font/font-awesome.min.css" />
+
+    <title>私人资源管理系统</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <style>
+
+        .login {
+            margin-right: 10px;
+            font-weight: bold;
+            color: azure;
+        }
+
+        .register {
+            margin-left: 820px;
+            font-weight: bold;
+            color: azure;
+        }
+    </style>
+
+</head>
+
+<body style="overflow: hidden">
+    <form id="form1" runat="server">
+
+        <!--顶部信息栏-->
+        <header class="Hui-header cl">
+            <a class="Hui-logo l" title="私人资源管理" href="Home.aspx">私人资源管理</a>
+            <a class="Hui-logo-m l" title="系统管理员">系统管理员</a>
+
+            <span class="register">
+                <a href="Register.aspx">注册</a>
+            </span>
+            <span class="login">
+                <a href="Login.aspx">登录</a>
+            </span>
+
+            <a aria-hidden="false" class="Hui-nav-toggle" id="nav-toggle" href="#"></a>
+        </header>
+        <div class="cl Hui-main">
+
+            <!--左侧导航栏-->
+            <aside class="Hui-aside" style="">
+                <input runat="server" id="divScrollValue" type="hidden" value="" />
+                <div class="menu_dropdown bk_2">
+                    <dl id="menu-user" class="selected">
+                        <dt><i class="icon-user"></i>用户中心</dt>
+                        <dd>
+                            <ul>
+                                <li><a _href="Picture.aspx" href="Picture.aspx">相册</a></li>
+                                <li><a _href="Book.aspx" href="javascript:void(0)">书籍</a></li>
+                                <li><a _href="Tool.aspx" href="javascript:void(0)">工具</a></li>
+                                <li><a _href="#" href="javascript:void(0)"></a><br/><br/><br/><br/><br/><br/></li>
+                                <li><a _href="html/about.html" href="javascript:void(0)">关于</a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </div>
+            </aside>
+
+            <!--收起左侧导航栏
+         <div class="dislpayArrow"><a class="pngfix" href="javascript:void(0);"></a></div>
+           -->
+        </div>
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/Validform_v5.3.2_min.js"></script>
+        <script type="text/javascript" src="layer/layer.min.js"></script>
+        <script type="text/javascript" src="js/H-ui.js"></script>
+        <script type="text/javascript" src="js/H-ui.admin.js"></script>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+</body>
+
+</html>

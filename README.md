@@ -1,7 +1,7 @@
 # CourseResourceManager
 A web course assignment built with ASP.NET.
 ## 一、项目框架
-开发环境：Windows10 + SQL Server2012 + VS2022
+开发环境：Windows10 + SQL Server2012 + VS2022<br/>
 语言框架: ASP.NET Framework
 ## 二、项目目标
 本项目简略实现私人资源管理信息系统，提供了注册、登录、图片（上传图片、浏览图片）、书籍、工具管理等功能。
